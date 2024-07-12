@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    brown 0%,
+    brown 50%,
+    yellow 50%,
+    yellow 100%
+  );
+}
+
+.play {
+  background-color: brown;
+  color: white;
+  font-size: 15vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  position: fixed;
+  left: 20rem;
+  top: 15rem;
+}
+
+.create {
+  background-color: yellow;
+  color: brown;
+  font-size: 15vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: none;
+  position: fixed;
+  right: 19rem;
+  top: 15rem;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 230px 230px;
+  color: brown;
+}
+
+.question {
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 22rem;
+  width: 34rem;
+  position: fixed;
+  left: 26rem;
+  top: 9rem;
+  
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+}
+
+.sol {
+  text-decoration: none;
+  
+  color: black;
+  font-size: 4vh;
+  border: 1px solid lightgrey;
+  background-color: lightgray;
+  border-radius: 8px;
+  height: 50px;
+  margin-top: 6px;
+margin-left: 9px;
+padding-left: 8px;
+}
+
+h2 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.question hr {
+  height: 4px;
+  width: 92%;
+  position: relative;
+  left: 25px;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.question button {
+  margin-left: 8%;
+  width: 20%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.correct
+{
+  background-color: lightgreen;
+border-color: green;
+border-radius: 8px;}
+.wrong
+{
+  background-color: lightcoral;
+  border-color: red;
+border-radius: 8px;
+}
+.result
+{
+  background-color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 20rem;
+  width: 34rem;
+  position: fixed;
+  left: 26rem;
+  top: 9rem;
+  
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+}
+.result h2{
+  position: relative;
+  left: 1rem;
+  font-size: 10vh;
+}
+.result p{
+  position: relative;
+  top: 2.5rem;
+  left: 9rem;
+  font-size: 7vh;
+}
+.back
+{
+  width: 25%;
+  height: 15%;
+  font-size: 5vh;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  position: relative;
+left: 23rem;
+top: 3rem;
+}
+.home
+{width: 25%;
+  height: 15%;
+  font-size: 5vh;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  position: relative;
+left: -6rem;
+top: 3rem;}
+img
+{
+  height: 40px;
+  margin-left: -4.5rem;
+  margin-top: -4.5rem;
+  
+}
+.home
+{
+  background-color: inherit;
+  border: none;
+}
